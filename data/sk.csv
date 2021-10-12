@@ -1,0 +1,274 @@
+"","Source.level","Target.level","Source","Target","Label","Parent.Label","Value","Value.type","Value.info","Country","Colour","DSource","Assumption"
+"2","Sourcing","Availability","Imports","Net-available non-renewable","Fossil solid","Fossil",205332.970840407,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"3","Sourcing","Availability","Domestic extraction","Net-available non-renewable","Fossil solid","Fossil",221221.582979626,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"4","Sourcing","Availability","Recycled","Net-available non-renewable","Fossil solid","Fossil",859.305008488964,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"5","Availability","Processing","Net-available non-renewable","Electricity","Fossil solid","Fossil",101058.700212224,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"6","Availability","Processing","Net-available non-renewable","Heat low-T","Fossil solid","Fossil",23665.8232173175,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"7","Availability","Processing","Net-available non-renewable","Refinery & Material processing","Fossil solid","Fossil",2868.47385398981,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"8","Availability","Processing","Net-available non-renewable","Energy sector","Fossil solid","Fossil",1163.2015704584,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"9","Availability","Processing","Net-available non-renewable","Industry energy","Fossil solid","Fossil",45490.8565789474,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"10","Processing","Services","Refinery & Material processing","Consumables","Fossil solid","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","including also bitumen/infra stocks"
+"11","Processing","Services","Refinery & Material processing","Transport","Fossil solid","Fossil",19.8530560271647,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"12","Processing","Services","Heat low-T","Residential & other","Fossil solid","Fossil",3987.27188455009,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"13","Processing","Services","Electricity","Residential & other","Fossil solid","Fossil",15949.0875382003,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"14","Services","Back-outflows","Consumables","Recycled","Fossil solid","Fossil",859.305008488964,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Recycled are 100% consumables"
+"15","Processing","Back-outflows","Refinery & Material processing","Exports","Fossil solid","Fossil",26642.8118421053,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"16","Sourcing","Availability","Imports","Net-available non-renewable","Fossil oil","Fossil",944651.313682984,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"17","Sourcing","Availability","Domestic extraction","Net-available non-renewable","Fossil oil","Fossil",71703.9964102564,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"18","Sourcing","Availability","Recycled","Net-available non-renewable","Fossil oil","Fossil",1136.33452214452,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"19","Availability","Processing","Net-available non-renewable","Electricity","Fossil oil","Fossil",5060.16503496503,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"20","Availability","Processing","Net-available non-renewable","Heat low-T","Fossil oil","Fossil",2290.37424242424,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"21","Availability","Processing","Net-available non-renewable","Refinery & Material processing","Fossil oil","Fossil",831320.01986014,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"22","Availability","Processing","Net-available non-renewable","Energy sector","Fossil oil","Fossil",29681.8064335664,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"23","Availability","Processing","Net-available non-renewable","Industry energy","Fossil oil","Fossil",385485.791072261,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"24","Processing","Services","Refinery & Material processing","Consumables","Fossil oil","Fossil",70861.1751515152,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","including also bitumen/infra stocks"
+"25","Processing","Services","Refinery & Material processing","Transport","Fossil oil","Fossil",295994.931841492,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"26","Processing","Services","Heat low-T","Residential & other","Fossil oil","Fossil",12929.7141165501,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"27","Processing","Services","Electricity","Residential & other","Fossil oil","Fossil",51718.8564662005,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"28","Services","Back-outflows","Consumables","Recycled","Fossil oil","Fossil",1136.33452214452,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Recycled are 100% consumables"
+"29","Processing","Back-outflows","Refinery & Material processing","Exports","Fossil oil","Fossil",413077.00020979,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"30","Sourcing","Availability","Imports","Net-available non-renewable","Fossil gas","Fossil",343633.663680168,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"31","Sourcing","Availability","Domestic extraction","Net-available non-renewable","Fossil gas","Fossil",90460.9149301676,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"32","Sourcing","Availability","Recycled","Net-available non-renewable","Fossil gas","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"33","Availability","Processing","Net-available non-renewable","Electricity","Fossil gas","Fossil",50041.809448324,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"34","Availability","Processing","Net-available non-renewable","Heat low-T","Fossil gas","Fossil",19028.6040502793,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"35","Availability","Processing","Net-available non-renewable","Refinery & Material processing","Fossil gas","Fossil",13446.5599022346,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"36","Availability","Processing","Net-available non-renewable","Energy sector","Fossil gas","Fossil",14767.8879678771,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"37","Availability","Processing","Net-available non-renewable","Industry energy","Fossil gas","Fossil",209239.904162011,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"38","Processing","Services","Refinery & Material processing","Consumables","Fossil gas","Fossil",13446.5599022346,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","including also bitumen/infra stocks"
+"39","Processing","Services","Refinery & Material processing","Transport","Fossil gas","Fossil",2830.7731424581,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"40","Processing","Services","Heat low-T","Residential & other","Fossil gas","Fossil",26691.1720768156,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"41","Processing","Services","Electricity","Residential & other","Fossil gas","Fossil",106764.688307263,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"42","Services","Back-outflows","Consumables","Recycled","Fossil gas","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Recycled are 100% consumables"
+"43","Processing","Back-outflows","Refinery & Material processing","Exports","Fossil gas","Fossil",84518.6790921788,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"44","Sourcing","Availability","Imports","Net-available biomass","Biogases","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"45","Sourcing","Availability","Domestic extraction","Net-available biomass","Biogases","Bio",15166.9210869565,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"46","Sourcing","Availability","Recycled","Net-available biomass","Biogases","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"47","Availability","Processing","Net-available biomass","Electricity","Biogases","Bio",4828.97834782609,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"48","Availability","Processing","Net-available biomass","Heat low-T","Biogases","Bio",641.557,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"49","Availability","Processing","Net-available biomass","Refinery & Material processing","Biogases","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"50","Availability","Processing","Net-available biomass","Energy sector","Biogases","Bio",499.7395,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"51","Availability","Processing","Net-available biomass","Industry energy","Biogases","Bio",2483.3277826087,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"52","Processing","Services","Refinery & Material processing","Consumables","Biogases","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","including also bitumen/infra stocks"
+"53","Processing","Services","Refinery & Material processing","Transport","Biogases","Bio",136.55497826087,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"54","Processing","Services","Heat low-T","Residential & other","Biogases","Bio",371.403352173913,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"55","Processing","Services","Electricity","Residential & other","Biogases","Bio",1485.61340869565,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"56","Services","Back-outflows","Consumables","Recycled","Biogases","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Recycled are 100% consumables"
+"57","Processing","Back-outflows","Refinery & Material processing","Exports","Biogases","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"58","Sourcing","Availability","Imports","Net-available biomass","Bio solid","Bio",20401.23345,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"59","Sourcing","Availability","Domestic extraction","Net-available biomass","Bio solid","Bio",198158.5055,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"60","Sourcing","Availability","Recycled","Net-available biomass","Bio solid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"61","Availability","Processing","Net-available biomass","Electricity","Bio solid","Bio",17060.54535,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"62","Availability","Processing","Net-available biomass","Heat low-T","Bio solid","Bio",22891.32735,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"63","Availability","Processing","Net-available biomass","Refinery & Material processing","Bio solid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"64","Availability","Processing","Net-available biomass","Energy sector","Bio solid","Bio",55.75455,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"65","Availability","Processing","Net-available biomass","Industry energy","Bio solid","Bio",144997.369,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"66","Processing","Services","Refinery & Material processing","Consumables","Bio solid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","including also bitumen/infra stocks"
+"67","Processing","Services","Refinery & Material processing","Transport","Bio solid","Bio",0.2681,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"68","Processing","Services","Heat low-T","Residential & other","Bio solid","Bio",20178.36727,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"69","Processing","Services","Electricity","Residential & other","Bio solid","Bio",80713.46908,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"70","Services","Back-outflows","Consumables","Recycled","Bio solid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Recycled are 100% consumables"
+"71","Processing","Back-outflows","Refinery & Material processing","Exports","Bio solid","Bio",9856.53785,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"72","Sourcing","Availability","Imports","Net-available biomass","Bio liquid","Bio",937.8335,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"73","Sourcing","Availability","Domestic extraction","Net-available biomass","Bio liquid","Bio",616.413133333333,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"74","Sourcing","Availability","Recycled","Net-available biomass","Bio liquid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"75","Availability","Processing","Net-available biomass","Electricity","Bio liquid","Bio",595.5851,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"76","Availability","Processing","Net-available biomass","Heat low-T","Bio liquid","Bio",137.856766666667,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"77","Availability","Processing","Net-available biomass","Refinery & Material processing","Bio liquid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"78","Availability","Processing","Net-available biomass","Energy sector","Bio liquid","Bio",63.0498666666667,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"79","Availability","Processing","Net-available biomass","Industry energy","Bio liquid","Bio",89.5404,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"80","Processing","Services","Refinery & Material processing","Consumables","Bio liquid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","including also bitumen/infra stocks"
+"81","Processing","Services","Refinery & Material processing","Transport","Bio liquid","Bio",2.35773333333333,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"82","Processing","Services","Heat low-T","Residential & other","Bio liquid","Bio",8.36266666666667,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"83","Processing","Services","Electricity","Residential & other","Bio liquid","Bio",33.4506666666667,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"84","Services","Back-outflows","Consumables","Recycled","Bio liquid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Recycled are 100% consumables"
+"85","Processing","Back-outflows","Refinery & Material processing","Exports","Bio liquid","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"86","Sourcing","Availability","Imports","Net-available renewable non-bio","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"87","Sourcing","Availability","Domestic extraction","Net-available renewable non-bio","Renewable electricity","REN",279.4442696,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"88","Sourcing","Availability","Recycled","Net-available renewable non-bio","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"89","Availability","Processing","Net-available renewable non-bio","Electricity","Renewable electricity","REN",290.600481,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"90","Availability","Processing","Net-available renewable non-bio","Heat low-T","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"91","Availability","Processing","Net-available renewable non-bio","Refinery & Material processing","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"92","Availability","Processing","Net-available renewable non-bio","Energy sector","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"93","Availability","Processing","Net-available renewable non-bio","Industry energy","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"94","Processing","Services","Refinery & Material processing","Consumables","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","including also bitumen/infra stocks"
+"95","Processing","Services","Refinery & Material processing","Transport","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"96","Processing","Services","Heat low-T","Residential & other","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Heat/el. shares"
+"97","Processing","Services","Electricity","Residential & other","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Heat/el. shares"
+"98","Services","Back-outflows","Consumables","Recycled","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Recycled are 100% consumables"
+"99","Processing","Back-outflows","Refinery & Material processing","Exports","Renewable electricity","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"100","Sourcing","Availability","Imports","Net-available renewable non-bio","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"101","Sourcing","Availability","Domestic extraction","Net-available renewable non-bio","Renewable heat","REN",97.5009381,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"102","Sourcing","Availability","Recycled","Net-available renewable non-bio","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"103","Availability","Processing","Net-available renewable non-bio","Electricity","Renewable heat","REN",4.535294,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"104","Availability","Processing","Net-available renewable non-bio","Heat low-T","Renewable heat","REN",2.4371108,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"105","Availability","Processing","Net-available renewable non-bio","Refinery & Material processing","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"106","Availability","Processing","Net-available renewable non-bio","Energy sector","Renewable heat","REN",0.0017674,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"107","Availability","Processing","Net-available renewable non-bio","Industry energy","Renewable heat","REN",60.3329932,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"108","Processing","Services","Refinery & Material processing","Consumables","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","including also bitumen/infra stocks"
+"109","Processing","Services","Refinery & Material processing","Transport","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"110","Processing","Services","Heat low-T","Residential & other","Renewable heat","REN",11.79788032,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Heat/el. shares"
+"111","Processing","Services","Electricity","Residential & other","Renewable heat","REN",47.19152128,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Heat/el. shares"
+"112","Services","Back-outflows","Consumables","Recycled","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Recycled are 100% consumables"
+"113","Processing","Back-outflows","Refinery & Material processing","Exports","Renewable heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"114","Sourcing","Availability","Imports","Net-available biomass","Biogenic wastes","Bio",1905.8707,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"115","Sourcing","Availability","Recycled","Net-available biomass","Biogenic wastes","Bio",41688.0314,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"116","Sourcing","Availability","Recycled","Net-available biomass","Biogenic wastes","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"117","Availability","Processing","Net-available biomass","Electricity","Biogenic wastes","Bio",7990.4328,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"118","Availability","Processing","Net-available biomass","Heat low-T","Biogenic wastes","Bio",12163.1243,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"119","Availability","Processing","Net-available biomass","Refinery & Material processing","Biogenic wastes","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"120","Availability","Processing","Net-available biomass","Energy sector","Biogenic wastes","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"121","Availability","Processing","Net-available biomass","Industry energy","Biogenic wastes","Bio",3721.8601,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"122","Processing","Services","Refinery & Material processing","Consumables","Biogenic wastes","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","including also bitumen/infra stocks"
+"123","Processing","Services","Refinery & Material processing","Transport","Biogenic wastes","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"124","Processing","Services","Heat low-T","Residential & other","Biogenic wastes","Bio",153.5975,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"125","Processing","Services","Electricity","Residential & other","Biogenic wastes","Bio",614.39,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Heat/el. shares"
+"126","Services","Back-outflows","Consumables","Recycled","Biogenic wastes","Bio",0,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Recycled are 100% consumables"
+"127","Processing","Back-outflows","Refinery & Material processing","Exports","Biogenic wastes","Bio",172.46,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c",""
+"128","Sourcing","Availability","Imports","Net-available non-renewable","non-renewable wastes","Fossil",2045.1884,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"129","Sourcing","Availability","Recycled","Net-available non-renewable","non-renewable wastes","Fossil",59665.9695,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"130","Sourcing","Availability","Recycled","Net-available non-renewable","non-renewable wastes","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"131","Availability","Processing","Net-available non-renewable","Electricity","non-renewable wastes","Fossil",9069.8647,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"132","Availability","Processing","Net-available non-renewable","Heat low-T","non-renewable wastes","Fossil",12979.938,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"133","Availability","Processing","Net-available non-renewable","Refinery & Material processing","non-renewable wastes","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"134","Availability","Processing","Net-available non-renewable","Energy sector","non-renewable wastes","Fossil",165.2301,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"135","Availability","Processing","Net-available non-renewable","Industry energy","non-renewable wastes","Fossil",16859.6934,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"136","Processing","Services","Refinery & Material processing","Consumables","non-renewable wastes","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","including also bitumen/infra stocks"
+"137","Processing","Services","Refinery & Material processing","Transport","non-renewable wastes","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"138","Processing","Services","Heat low-T","Residential & other","non-renewable wastes","Fossil",221.21248,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"139","Processing","Services","Electricity","Residential & other","non-renewable wastes","Fossil",884.84992,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Heat/el. shares"
+"140","Services","Back-outflows","Consumables","Recycled","non-renewable wastes","Fossil",0,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Recycled are 100% consumables"
+"141","Processing","Back-outflows","Refinery & Material processing","Exports","non-renewable wastes","Fossil",152.94,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"142","Sourcing","Availability","Imports","Net-available renewable non-bio","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"143","Sourcing","Availability","Domestic extraction","Net-available renewable non-bio","Nuclear heat","REN",882.2656688,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"144","Sourcing","Availability","Recycled","Net-available renewable non-bio","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"145","Availability","Processing","Net-available renewable non-bio","Electricity","Nuclear heat","REN",298.6988648,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"146","Availability","Processing","Net-available renewable non-bio","Heat low-T","Nuclear heat","REN",0.4337204,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"147","Availability","Processing","Net-available renewable non-bio","Refinery & Material processing","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"148","Availability","Processing","Net-available renewable non-bio","Energy sector","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"149","Availability","Processing","Net-available renewable non-bio","Industry energy","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"150","Processing","Services","Refinery & Material processing","Consumables","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","including also bitumen/infra stocks"
+"151","Processing","Services","Refinery & Material processing","Transport","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"152","Processing","Services","Heat low-T","Residential & other","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Heat/el. shares"
+"153","Processing","Services","Electricity","Residential & other","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Heat/el. shares"
+"154","Services","Back-outflows","Consumables","Recycled","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c","Recycled are 100% consumables"
+"155","Processing","Back-outflows","Refinery & Material processing","Exports","Nuclear heat","REN",0,"Mass_now",2017,"EU28","deepskyblue1","nrg_bal_c",""
+"156","Processing","Services","Refinery & Material processing","Infrastructure","Fossil oil","Fossil",12956.7929370629,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c",""
+"157","Processing","Services","Refinery & Material processing","Building stock","Fossil solid","Fossil",2977.62801358234,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","100% metallurgic coal, 0%longlife products, 100% construction"
+"158","Services","Back-outflows","Consumables","Recycled","non-renewable wastes","Fossil",59665.9695,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c","Recycled are 100% consumables"
+"159","Services","Back-outflows","Consumables","Recycled","Biogenic wastes","Fossil",41688.0314,"Mass_now",2017,"EU28","darkolivegreen1","nrg_bal_c","Recycled are 100% consumables"
+"160","Processing","Back-outflows","Electricity","Dispersed","non-renewable wastes","Fossil",181559.46346,"Mass_now",2017,"EU28","darkgrey","nrg_bal_c derived",""
+"2522","Sourcing","Availability","Imports","Net-available biomass","Plant products","Agriculture biomass",13184.050056622,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2524","Sourcing","Availability","Imports","Net-available biomass","Processed products (biomass eq.)","Agriculture biomass",8376.89256028273,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2526","Sourcing","Availability","Imports","Net-available biomass","Animal products (feed eq.)","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2528","Sourcing","Availability","Imports","Net-available biomass","Plant-based food","Agriculture biomass",29028.3397332225,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2530","Availability","Back-outflows","Net-available biomass","Exports","Plant products","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2536","Availability","Processing","Net-available biomass","Refinery & Material processing","Agriculture biomass","Agriculture biomass",1111.248028,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2538","Services","Back-outflows","Long-life products","Exports","Processed products (biomass eq.)","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2540","Availability","Processing","Net-available biomass","Food industry","Fishmeal & oil for feed","Agriculture biomass",1e-07,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2542","Availability","Processing","Net-available biomass","Food industry","Agriculture biomass","Agriculture biomass",584800.216640718,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2546","Availability","Processing","Net-available biomass","Food industry","Agriculture biomass","Agriculture biomass",106930.327676198,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2548","Processing","Back-outflows","Food industry","Exports","Animal products (feed eq.)","Agriculture biomass",22350.9309216042,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2550","Processing","Back-outflows","Food industry","Exports","Plant-based food","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2552","Sourcing","Availability","Imports","Net-available biomass","Fish & seafood","Fisheries biomass",1534.5720575,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2554","Sourcing","Availability","Imports","Net-available biomass","Fishmeal & oil","Fisheries biomass",174.942207,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2556","Sourcing","Availability","Domestic extraction","Net-available biomass","Capture fisheries","Fisheries biomass",1288.1944025,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2558","Sourcing","Availability","Domestic extraction","Net-available biomass","Aquaculture","Fisheries biomass",314.2885575,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2560","Availability","Processing","Net-available biomass","Food industry","Fishmeal & oil","Fisheries biomass",930.289706093,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2562","Availability","Processing","Net-available biomass","Food industry","Aquatic-based food","Fisheries biomass",2915.7905,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2564","Availability","Processing","Net-available biomass","Food industry","Fishmeal & oil","Fisheries biomass",740.12077549564,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2566","Availability","Back-outflows","Net-available biomass","Exports","Fish & seafood","Fisheries biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2568","Processing","Back-outflows","Food industry","Exports","Fishmeal & oil","Fisheries biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2570","Availability","Processing","Net-available biomass","Food industry","Fishmeal & oil","Fisheries biomass",190.16893059736,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2572","Sourcing","Availability","Domestic extraction","Net-available biomass","Post-consumer wood","Forestry biomass",6723.503437522,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2574","Sourcing","Availability","Domestic extraction","Net-available biomass","By- & co-products (incl. wood pellets)","Forestry biomass",-11663.7323425316,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2576","Sourcing","Availability","Domestic extraction","Net-available biomass","Primary woody biomass","Forestry biomass",240513.236245198,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2578","Sourcing","Availability","Imports","Net-available biomass","By- & co-products (incl. wood pellets)","Forestry biomass",10073.4875646,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2580","Sourcing","Availability","Imports","Net-available biomass","Primary woody biomass","Forestry biomass",8201.49838636364,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2582","Availability","Back-outflows","Net-available biomass","Exports","Primary woody biomass","Forestry biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2584","Availability","Back-outflows","Net-available biomass","Exports","By- & co-products (incl. wood pellets)","Forestry biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2586","Services","Back-outflows","Consumables","Exports","Wood pulp","Forestry biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2588","Services","Back-outflows","Long-life products","Exports","Solid wood products","Forestry biomass",9438.94276110001,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2590","Sourcing","Availability","Imports","Net-available biomass","Wood pulp","Forestry biomass",5632.081812233,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2592","Availability","Processing","Net-available biomass","Refinery & Material processing","By- & co-products (incl. wood pellets)","Forestry biomass",16870.7608343888,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2594","Availability","Processing","Net-available biomass","Refinery & Material processing","Primary woody biomass","Forestry biomass",55965.2522514817,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2596","Sourcing","Availability","Imports","Net-available biomass","Solid wood products","Forestry biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2598","Availability","Services","Net-available biomass","Long-life products","By- & co-products (incl. wood pellets)","Forestry biomass",14463.379337976,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2604","Availability","Services","Net-available biomass","Long-life products","Primary woody biomass","Forestry biomass",118924.338132005,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2608","Availability","Services","Net-available biomass","Long-life products","Post-consumer wood","Forestry biomass",6723.503437522,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2668","Sourcing","Availability","Domestic extraction","Net-available biomass","Unknown origin (Losses)","Fisheries biomass",534.082981593001,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2672","Sourcing","Availability","Domestic extraction","Net-available biomass","Cereals","Agriculture biomass",267606.433538,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2676","Sourcing","Availability","Domestic extraction","Net-available biomass","Root crops","Agriculture biomass",47812.419637,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2680","Sourcing","Availability","Domestic extraction","Net-available biomass","Oil crops","Agriculture biomass",63702.507458,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2684","Sourcing","Availability","Domestic extraction","Net-available biomass","Fruits","Agriculture biomass",10779.485222,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2688","Sourcing","Availability","Domestic extraction","Net-available biomass","Olive trees","Agriculture biomass",9248.604032,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2692","Sourcing","Availability","Domestic extraction","Net-available biomass","Other industrial crops","Agriculture biomass",469.922904,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2696","Sourcing","Availability","Domestic extraction","Net-available biomass","Fodder crops","Agriculture biomass",155834.952675,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2700","Sourcing","Availability","Domestic extraction","Net-available biomass","Vegetables","Agriculture biomass",6478.72690600001,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2704","Sourcing","Availability","Domestic extraction","Net-available biomass","Pulses & protein crops","Agriculture biomass",5261.088962,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2708","Sourcing","Availability","Domestic extraction","Net-available biomass","Fibre Crops","Agriculture biomass",1111.248011,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2712","Sourcing","Availability","Domestic extraction","Net-available biomass","Cereals","Agriculture biomass",83439.3988210001,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2720","Sourcing","Availability","Domestic extraction","Net-available biomass","Root crops","Agriculture biomass",4936.574886,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2728","Sourcing","Availability","Domestic extraction","Net-available biomass","Oil crops","Agriculture biomass",16995.5748016,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2736","Sourcing","Availability","Domestic extraction","Net-available biomass","Fruits","Agriculture biomass",433.8210447,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2744","Sourcing","Availability","Domestic extraction","Net-available biomass","Olive trees","Agriculture biomass",1785.3251808,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2752","Sourcing","Availability","Domestic extraction","Net-available biomass","Other industrial crops","Agriculture biomass",17.8317724,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2760","Sourcing","Availability","Domestic extraction","Net-available biomass","Fodder crops","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2768","Sourcing","Availability","Domestic extraction","Net-available biomass","Vegetables","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2776","Sourcing","Availability","Domestic extraction","Net-available biomass","Pulses & protein crops","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"2784","Sourcing","Availability","Domestic extraction","Net-available biomass","Fibre Crops","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4412","Sourcing","Availability","Domestic extraction","Net-available biomass","Agriculture biomass","Agriculture biomass",109724.26916,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4917","Processing","Services","Food industry","Animal-based food","Carbohydrates","Agriculture biomass",3988.16839691837,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4918","Processing","Services","Food industry","Animal-based food","Fats","Agriculture biomass",14110.3791973049,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4919","Processing","Services","Food industry","Animal-based food","Proteins","Agriculture biomass",10064.8306531088,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4920","Processing","Services","Food industry","Animal-based food","Others","Agriculture biomass",2816.33782473321,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4925","Processing","Services","Food industry","Plant-based food","Carbohydrates","Agriculture biomass",76540.6055974233,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4926","Processing","Services","Food industry","Plant-based food","Fats","Agriculture biomass",12639.5292196599,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4927","Processing","Services","Food industry","Plant-based food","Proteins","Agriculture biomass",8041.5359442101,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4928","Processing","Services","Food industry","Plant-based food","Others","Agriculture biomass",9722.16707612934,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4932","Processing","Back-outflows","Food industry","Dispersed","Cereals (Losses)","Agriculture biomass",66751.5190568001,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4936","Processing","Back-outflows","Food industry","Dispersed","Root crops (Losses)","Agriculture biomass",3949.2599088,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4940","Processing","Back-outflows","Food industry","Dispersed","Oil crops (Losses)","Agriculture biomass",13596.45984128,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4944","Processing","Back-outflows","Food industry","Dispersed","Fruits (Losses)","Agriculture biomass",347.05683576,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4948","Processing","Back-outflows","Food industry","Dispersed","Olive trees (Losses)","Agriculture biomass",1428.26014464,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4952","Processing","Back-outflows","Food industry","Dispersed","Other industrial crops (Losses)","Agriculture biomass",14.26541792,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4956","Processing","Back-outflows","Food industry","Dispersed","Fodder crops (Losses)","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4960","Processing","Back-outflows","Food industry","Dispersed","Vegetables (Losses)","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4964","Processing","Back-outflows","Food industry","Dispersed","Pulses & protein crops (Losses)","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"4968","Processing","Back-outflows","Food industry","Dispersed","Fibre Crops (Losses)","Agriculture biomass",0,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"5564","Processing","Back-outflows","Food industry","Dispersed","Agriculture biomass (Losses)","Agriculture biomass",170161.781487609,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"25361","Processing","Services","Refinery & Material processing","Consumables","Agriculture biomass","Agriculture biomass",1111.248028,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"25921","Processing","Services","Refinery & Material processing","Long-life products","By- & co-products (incl. wood pellets)","Forestry biomass",16870.7608343888,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"25941","Processing","Services","Refinery & Material processing","Long-life products","Primary woody biomass","Forestry biomass",55965.2522514817,"kt",2017,"EU28","darkolivegreen1","datam.jrc/biomass_flows",NA
+"210","Sourcing","Availability","Imports","Net-available non-renewable","Metal ores","Metal ores",247023,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"310","Sourcing","Availability","Domestic extraction","Net-available non-renewable","Metal ores","Metal ores",563620,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"410","Back-outflows","Availability","Recycled","Net-available non-renewable","Metal ores","Metal ores",101200,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"510","Availability","Processing","Net-available non-renewable","Refinery & Material processing","Metal ores","Metal ores",440689,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"610","Availability","Processing","Refinery & Material processing","Consumables","Metal ores","Metal ores",112321,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"710","Processing","Services","Refinery & Material processing","Infrastructure","Metal ores","Metal ores",109456,"kt",2017,"EU28","goldenrod2","env_ac_sd","Generic share"
+"810","Processing","Services","Refinery & Material processing","Long-life products","Metal ores","Metal ores",109456,"kt",2017,"EU28","goldenrod2","env_ac_sd","Generic share"
+"910","Processing","Services","Refinery & Material processing","Building stock","Metal ores","Metal ores",109456,"kt",2017,"EU28","goldenrod2","env_ac_sd","Generic share"
+"1010","Services","Back-outflows","Consumables","Wasted","Metal ores","Metal ores",4800,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"1110","Services","Back-outflows","Consumables","Recycled","Metal ores","Metal ores",101200,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"1210","Sourcing","Availability","Imports","Net-available non-renewable","Non-metallic minerals","Non-metallic minerals",91971,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"1310","Sourcing","Availability","Domestic extraction","Net-available non-renewable","Non-metallic minerals","Non-metallic minerals",4006693,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"1410","Back-outflows","Availability","Recycled","Net-available non-renewable","Non-metallic minerals","Non-metallic minerals",773345,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"1510","Availability","Processing","Net-available non-renewable","Refinery & Material processing","Non-metallic minerals","Non-metallic minerals",3892509,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"161","Availability","Processing","Refinery & Material processing","Consumables","Non-metallic minerals","Non-metallic minerals",1486102,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"171","Processing","Services","Refinery & Material processing","Infrastructure","Non-metallic minerals","Non-metallic minerals",802135.666666667,"kt",2017,"EU28","goldenrod2","env_ac_sd","Generic share"
+"181","Processing","Services","Refinery & Material processing","Long-life products","Non-metallic minerals","Non-metallic minerals",802135.666666667,"kt",2017,"EU28","goldenrod2","env_ac_sd","Generic share"
+"191","Processing","Services","Refinery & Material processing","Building stock","Non-metallic minerals","Non-metallic minerals",802135.666666667,"kt",2017,"EU28","goldenrod2","env_ac_sd","Generic share"
+"201","Services","Back-outflows","Consumables","Wasted","Non-metallic minerals","Non-metallic minerals",615675,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"211","Services","Back-outflows","Consumables","Recycled","Non-metallic minerals","Non-metallic minerals",773345,"kt",2017,"EU28","goldenrod2","env_ac_sd",""
+"262","Processing","Services","Refinery & Material processing","Agri-& Silviculture","Nitrogen","Fossil",11611.071,"kt",2017,"EU28","darkgrey","aei_fm_usefert",""
+"263","Processing","Services","Refinery & Material processing","Agri-& Silviculture","Phosphorus","Non-metallic minerals",1217.562,"kt",2017,"EU28","goldenrod2","aei_fm_usefert",""
+"264","Services","Back-outflows","Residential & other","Emissions","GHG-emissions","GHG-emissions",1569998.63,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"265","Processing","Back-outflows","Industry energy","Emissions","GHG-emissions","GHG-emissions",498113.35,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"266","Processing","Back-outflows","Energy sector","Emissions","GHG-emissions","GHG-emissions",55869.09,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"267","Services","Back-outflows","Transport","Emissions","GHG-emissions","GHG-emissions",949433.78,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"268","Services","Back-outflows","Agri-& Silviculture","Emissions","GHG-emissions","GHG-emissions",93313.53,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"269","Services","Back-outflows","Infrastructure","Emissions","GHG-emissions","GHG-emissions",110655.79,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"270","Services","Back-outflows","Consumables","Emissions","GHG-emissions","GHG-emissions",194909.51,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"271","Services","Back-outflows","Long-life products","Emissions","GHG-emissions","GHG-emissions",74309.4,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"272","Services","Back-outflows","Animal-based food","Emissions","GHG-emissions","GHG-emissions",258601.15,"kt",2017,"EU28","darkslategrey","env_air_gge",""
+"273","Services","Back-outflows","Plant-based food","Emissions","GHG-emissions","GHG-emissions",170185.62,"kt",2017,"EU28","darkslategrey","env_air_gge",""
