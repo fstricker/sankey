@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[76]:
+# In[206]:
 
 
 from jupyter_dash import JupyterDash
@@ -10,13 +10,13 @@ import plotly.graph_objects as go
 import pandas as pd
 
 
-# In[77]:
+# In[207]:
 
 
 app = Dash(__name__)
 
 
-# In[78]:
+# In[208]:
 
 
 def load_data(file_dir, file_name, idx_boolean = True, add_years = False):
@@ -40,36 +40,17 @@ def load_data(file_dir, file_name, idx_boolean = True, add_years = False):
             df_copy = df.copy()
             df_copy['Value.info'] = y
             df_payload = df_payload.append(df_copy)
-
+            
         df = df.append(df_payload)
     
     df['Value'].replace("Inf", "0.0001")
     df['Value'] = df['Value'].astype("float")
     df['Value'].replace(0, 0.0001)
     
-    #attempt to order entire dataframe
-    #! essential: add actionable color palette to df
-    sorted_sl_df = pd.DataFrame(index=range(len(df)),columns=range(1))
-    sorted_sl_df.columns = ['sorted_sl']
-    sorted_sl_payload = []
-
-    for i in range(len(df)):
-        for source, level in node_dict.items():
-            if source == df['Source.level'].values[i]:
-                sorted_sl_payload.append(level)
-                break;
-
-    sorted_sl_df['sorted_sl'] = sorted_sl_payload
-
-    df = df.join(sorted_sl_df.set_index(df.index))
-
-    ## Sort order of Source.level and Source needs to reflect non-alphabetical, but teleological order instead
-    df = df.sort_values(by=['sorted_sl', 'Source'])
-    
     return df
 
 
-# In[79]:
+# In[209]:
 
 
 #! essential, but problematic to set-up programatically, because of node level taxonomy
@@ -79,7 +60,7 @@ node_dict = {"Sourcing": 1, "Availability": 2, "Processing": 3, "Services": 4, "
 
 # future data source: EU_flow_data_20220225.csv
 
-# In[80]:
+# In[210]:
 
 
 #! essential
@@ -87,7 +68,7 @@ node_dict = {"Sourcing": 1, "Availability": 2, "Processing": 3, "Services": 4, "
 df = load_data("data", "full_v3.csv", add_years= True)
 
 
-# In[81]:
+# In[211]:
 
 
 #! essential, but run once only and take care when using further and other colors!!!
@@ -109,7 +90,7 @@ def convert_colors(df, color_column, color_dict):
     return color_payload;
 
 
-# In[82]:
+# In[212]:
 
 
 #! essential: add actionable color palette to df
@@ -120,7 +101,7 @@ df = df.join(colors_df)
 df['hex_colors'] = convert_colors(df, 'Colour', color_dict)
 
 
-# In[83]:
+# In[213]:
 
 
 #! since code was repetitive with unique_sources_targets, the function returns a list of 2 lists now
@@ -193,13 +174,13 @@ def calc_node_x(df, source_column, target_column):
     return [export_list, list2];
 
 
-# In[84]:
+# In[214]:
 
 
 elements_positions, unique_sources_targets = calc_node_x(df, 'Source', 'Target')
 
 
-# In[85]:
+# In[215]:
 
 
 #calculate sources_targets y size
@@ -226,7 +207,7 @@ def sources_targets_y_frequency(elements_positions, node_dict):
 sources_targets_y_size = sources_targets_y_frequency(elements_positions, node_dict)
 
 
-# In[86]:
+# In[216]:
 
 
 #calculate sources_targets x position
@@ -248,7 +229,7 @@ def sources_targets_x_frequency(elements_positions, node_dict):
 sources_targets_on_y = sources_targets_x_frequency(elements_positions, node_dict)
 
 
-# In[87]:
+# In[217]:
 
 
 #calculate link sources and targets
@@ -306,7 +287,7 @@ links_sources_targets = calculate_link_sources_targets(df, unique_sources_target
 
 # with radio buttons
 
-# In[88]:
+# In[218]:
 
 
 app.layout = html.Div([
@@ -378,9 +359,15 @@ def update_graph_and_title(xaxis_column_name, year_value):
           color = temp_df['hex_colors']
       ))])
     
-#    new_fig.update_layout(font_family="Arial", title_text=f"EU28 material flows in {year_value} for {xaxis_column_name} along Source | Availability | Processing | Services/goods | Outflows", font_size=10)
+    new_fig.update_layout(height=750)
 
     return new_fig, payload
 if __name__ == '__main__':
-    app.run_server(port = 8055, debug=True)
+    app.run_server(port = 8051, debug=True)
+
+
+# In[ ]:
+
+
+
 
