@@ -10,6 +10,10 @@ import plotly.graph_objects as go
 import pandas as pd
 import re
 
+#! essential, but problematic to set-up programatically, because of node level taxonomy
+
+x_lvl_dict = {"Sourcing": {"Int": 1}, "Availability": {"Int": 2}, "Preprocessing": {"Int":3}, "Processing": {"Int": 4}, "Services": {"Int": 5}, "Backflows": {"Int": 6}, "Outflows": {"Int": 7}}
+
 def load_data(file_dir, file_name, wide_boolean = True, idx_boolean = False, add_years = False):
     
     """
@@ -104,9 +108,6 @@ def load_data(file_dir, file_name, wide_boolean = True, idx_boolean = False, add
     
     return df
 
-#! essential, but problematic to set-up programatically, because of node level taxonomy
-
-x_lvl_dict = {"Sourcing": {"Int": 1}, "Availability": {"Int": 2}, "Processing": {"Int": 3}, "Services": {"Int": 4}, "Outflows": {"Int": 5}}
 
 def convert_colors(df, color_column, color_dict):
     '''
@@ -322,14 +323,17 @@ def nodes_xypositions(elements_positions, node_dict, x_lvl_dict):
     sources_targets_on_x = []
     
     #type=list, what=list of nodes' y-positions by x_lvl
-    sources_targets_y_size = []
+    payload_y = []
 
     for key, value in x_lvl_dict.items():
         sources_targets_on_x.append(elements_positions.count(key))
         
+        
+        #logic for x-level: start with Y pos zero, and add buffer for previous element, delete last entry after loop complets
+        payload_y.append(0)
         y_sum = 0
         
-        for node, item in node_dict.items():
+        for node, item in node_dict.items():    
                         
             if item['Source_level_str'] == key:
                 
@@ -337,8 +341,21 @@ def nodes_xypositions(elements_positions, node_dict, x_lvl_dict):
                 payload_x.append(item['Source_level_int']/len(x_lvl_dict))
                 
                 #add y position
-                sources_targets_y_size.append((item['Max_value'] + y_sum)/value['Agg_Value'])
+                payload_y.append((item['Max_value'] + y_sum)/value['Agg_Value'])
                 
                 y_sum += item['Max_value']
+
+        payload_y.pop(-1)
                 
-    return [payload_x, sources_targets_y_size]
+    return [payload_x, payload_y]
+
+def x_level_strings(x_lvl_dict):
+    #define laylout level string
+    keys_payload = ''
+    keys_str = [str(k) for k in x_lvl_dict.keys()]
+    
+    for k in keys_str:
+        keys_payload += k+" | "
+    keys_payload = keys_payload[:-3]
+    
+    return keys_payload
