@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-from jupyter_dash import JupyterDash
+# from jupyter_dash import JupyterDash
 from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 import pandas as pd
@@ -338,7 +338,10 @@ def nodes_xypositions(elements_positions, node_dict, x_lvl_dict):
             if item['Source_level_str'] == key:
                 
                 #add x position
-                payload_x.append(item['Source_level_int']/len(x_lvl_dict))
+                if item['Source_level_int'] == 1:
+                    payload_x.append(0)
+                else:
+                    payload_x.append((item['Source_level_int']-1)*(1/(len(x_lvl_dict)-1)))
                 
                 #add y position
                 payload_y.append((item['Max_value'] + y_sum)/value['Agg_Value'])
