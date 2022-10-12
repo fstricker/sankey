@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
-# from jupyter_dash import JupyterDash
-from dash import Dash, dcc, html, Input, Output
-import plotly.graph_objects as go
 import pandas as pd
 import re
 
@@ -68,7 +62,8 @@ def load_data(file_dir, file_name, wide_boolean = True, idx_boolean = False, add
             inc_df.rename(columns = {'Unit':'Value.type'}, inplace = True) 
 
             #append data to new df
-            new_df = new_df.append(inc_df, ignore_index = True)
+            # new_df = new_df.append(inc_df, ignore_index = True)
+            new_df = pd.concat([new_df, inc_df], ignore_index=True)
         
         #slice string of col_years and convert it to int
         new_df['Value.info'] = new_df['Value.info'].str.slice(1)

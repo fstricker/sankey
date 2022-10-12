@@ -1,0 +1,7 @@
+#pyautogui==0.9.53
+pandas==1.4.4
+dash==2.3.1
+plotly==5.9.0
+numpy==1.21.5
+
+
