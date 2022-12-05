@@ -80,7 +80,7 @@ app.layout = html.Div([
             marks={str(year): str(year) for year in df['Value.info'].unique()},
         )], style={'height': '10%', 'fontFamily': 'Arial', 'width': '90%', 'margin': 'auto'})
 
-], style= {'height': '100vh'})
+], style= {'height': '100vh', 'max-width': '95%'})
 
 @app.callback(
     Output('indicator-graphic', 'figure'),
