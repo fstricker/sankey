@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[1]:
 
 
 from functions import *
@@ -13,7 +13,7 @@ import dash_daq as daq
 import dash_bootstrap_components as dbc
 
 
-# In[6]:
+# In[2]:
 
 
 #load and preprocess data
@@ -24,7 +24,7 @@ app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-wi
 server = app.server
 
 
-# In[9]:
+# In[3]:
 
 
 app.layout = html.Div([
@@ -60,7 +60,7 @@ app.layout = html.Div([
                 )
             ]
         )
-    ], style={'height': '20%'}),
+    ], style={'min-height': '20%'}),
     html.Div([
         dcc.Graph(
                 id='indicator-graphic',
@@ -78,7 +78,7 @@ app.layout = html.Div([
             id='year--slider',
             value=df['Value.info'].max(),
             marks={str(year): str(year) for year in df['Value.info'].unique()},
-        )], style={'height': '10%', 'fontFamily': 'Arial', 'width': '70%', 'margin': 'auto'})
+        )], style={'height': '10%', 'fontFamily': 'Arial', 'width': '90%', 'margin': 'auto'})
 
 ], style= {'height': '100vh'})
 
@@ -167,4 +167,10 @@ def update_graph_and_title(xaxis_column_name, year_value, orientation_value):
 # Main
 if __name__ == "__main__":
     app.run_server(debug=False)
+
+
+# In[ ]:
+
+
+
 
