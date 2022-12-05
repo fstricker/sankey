@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[4]:
 
 
 from functions import *
@@ -13,7 +13,7 @@ import dash_daq as daq
 import dash_bootstrap_components as dbc
 
 
-# In[2]:
+# In[6]:
 
 
 #load and preprocess data
@@ -62,7 +62,13 @@ app.layout = html.Div([
         )
     ], style={'height': '20%'}),
     html.Div([
-        dcc.Graph(id='indicator-graphic', responsive=True) 
+        dcc.Graph(
+                id='indicator-graphic',
+                responsive=True,
+                style = {
+                    'height': '100%'
+                }
+         ) 
     ], style={'width': '100%', 'height': '70%'}),
     html.Div([
         dcc.Slider(
@@ -154,9 +160,7 @@ def update_graph_and_title(xaxis_column_name, year_value, orientation_value):
         )
     ])
     
-    new_fig.update_layout(height = 600)
-#     new_fig.layout.width = 1300 #0.9*user_gui_width 
-#     new_fig.update_layout(height=700)
+    new_fig.update_layout(autosize=True)
 
     return new_fig, payload_title
 
