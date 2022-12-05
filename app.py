@@ -9,7 +9,8 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
-import pyautogui
+import dash_daq as daq
+import dash_bootstrap_components as dbc
 
 
 # In[2]:
@@ -19,14 +20,8 @@ import pyautogui
 df = load_data('data', 'EU_flow_data_20220322.csv', wide_boolean=True, idx_boolean=False)
 
 #dynamic sankey visualization with radio buttons and slider filters
-app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}])
+app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-
-#shape sankey layout height and orientation depending on user device
-user_gui_width, user_gui_height = pyautogui.size()[0], pyautogui.size()[1]
-sankey_orientation = "h"
-if user_gui_width < 900:
-    sankey_orientation = "v"
 
 
 # In[ ]:
@@ -39,17 +34,35 @@ app.layout = html.Div([
         ], style={'margin': 'auto', 'text-align': 'center', 'fontFamily': 'Arial'}),
         html.Br(),
         html.Br(),
-        html.Div([
-            dcc.RadioItems(
-                df['Value.type'].unique(),
-                value = df['Value.type'].unique()[0],
-                id='xaxis-column',
-                inline=True
-            )], style={'margin': 'auto', 'fontFamily': 'Arial', 'width': '48%','text-align': 'center'})
+        dbc.Row(
+            [
+                dbc.Col(
+                    [
+                        html.Label('Change orientation:'),
+                        dcc.RadioItems(
+                            ['Vertical', 'Horizontal'],
+                            value = 'Vertical',
+                            id = 'orientation',
+                            inline=True
+                        )
+                    ], style = {'text-align': 'center'}
+                ),
+                dbc.Col(
+                    [
+                        html.Label("Resource Unit:"),
+                        dcc.RadioItems(
+                            df['Value.type'].unique(),
+                            value = df['Value.type'].unique()[0],
+                            id='xaxis-column',
+                            inline=True
+                        )
+                    ], style = {'text-align': 'center'}
+                )
+            ]
+        )
     ], style={'height': '20%'}),
-
     html.Div([
-        dcc.Graph(id='indicator-graphic') # , responsive=True
+        dcc.Graph(id='indicator-graphic', responsive=True) 
     ], style={'width': '100%', 'height': '70%'}),
     html.Div([
         dcc.Slider(
@@ -60,16 +73,18 @@ app.layout = html.Div([
             value=df['Value.info'].max(),
             marks={str(year): str(year) for year in df['Value.info'].unique()},
         )], style={'height': '10%', 'fontFamily': 'Arial', 'width': '70%', 'margin': 'auto'})
-    
+
 ], style= {'height': '100vh'})
 
 @app.callback(
     Output('indicator-graphic', 'figure'),
     Output('my-output', 'children'),
     Input('xaxis-column', 'value'),
-    Input('year--slider', 'value'))
+    Input('year--slider', 'value'),
+    Input('orientation', 'value')
+)
 
-def update_graph_and_title(xaxis_column_name, year_value):
+def update_graph_and_title(xaxis_column_name, year_value, orientation_value):
     
     filter_list = [i and j for i, j in zip(df['Value.type'] == xaxis_column_name, df['Value.info'] == year_value)]
     temp_df = df[filter_list]
@@ -112,24 +127,20 @@ def update_graph_and_title(xaxis_column_name, year_value):
         y =  [0,1]
     )
     
-    if sankey_orientation == "v":
+    orientation_payload = orientation_value[0].lower()
+    
+    if orientation_payload == 'v':
         
         node_config = dict(
-#             below manipulation unfortunately doesn't work (node labels are not shown)
-#             label = ['\n' + unique_sources_targets[i] for i in range(len(unique_sources_targets)) if i%2 == 0],
             label = unique_sources_targets,
             pad = 20,
             thickness = 20,
             color = "cornsilk"
         )
-#         domain_config = dict(
-#             x =  [0.5,1],
-#             y =  [0.5,1]
-#         )
-
+        
     new_fig = go.Figure(data=[
         go.Sankey(
-            orientation = sankey_orientation,
+            orientation = orientation_payload,
             domain = domain_config,
             arrangement= "snap",
             node = node_config,
@@ -142,6 +153,7 @@ def update_graph_and_title(xaxis_column_name, year_value):
             )
         )
     ])
+    
     new_fig.update_layout(height = 600)
 #     new_fig.layout.width = 1300 #0.9*user_gui_width 
 #     new_fig.update_layout(height=700)
@@ -151,10 +163,4 @@ def update_graph_and_title(xaxis_column_name, year_value):
 # Main
 if __name__ == "__main__":
     app.run_server(debug=False)
-
-
-# In[ ]:
-
-
-
 
